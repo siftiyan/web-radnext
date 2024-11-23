@@ -3344,3 +3344,512 @@ p {
   border: none; /* Remove iframe border */
   border-radius: 10px;
 }
+
+/*================================================
+07: home 3
+==================================================*/
+.home3.menubar{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/*================================================
+7.1: banner
+==================================================*/
+.home3.banner{
+  padding-top: 230px;
+  padding-bottom: 550px;
+  margin-bottom: 110px;
+  position: relative;
+}
+.home3.banner h2{
+  font-size: 52px;
+}
+.home3.banner p{
+  padding-top: 15px;
+}
+.home3.banner ul li .special-btn span i{
+  background: var(--gradient2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.home3.banner ul li .special-btn:hover{
+  color: var(--orange);
+}
+.home3.banner .image{
+  position: absolute;
+  bottom: -110px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+/*================================================
+7.2: brand
+==================================================*/
+.home3.brand{
+  margin-top: 0;
+  padding-top: 70px;
+}
+.home3.brand .bg{
+  box-shadow: none;
+  padding: 50px 0;
+  border-bottom: 1px solid #ddd;
+}
+/*================================================
+7.3: feature
+==================================================*/
+.home3.choose .single-item{
+  background: var(--white);
+  box-shadow: 2px 0 90px rgba(0, 0, 0, 0.1);
+  padding: 20px 35px 30px 35px;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+.home3.choose .single-item:before{
+  content: '';
+  position: absolute;
+  top: -30px;
+  right: -30px;
+  height: 105px;
+  width: 105px;
+  background: var(--gradient2);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  z-index: -1;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+.home3.choose .single-item:hover:before{
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+.home3.choose .single-item h5{
+  font-family: var(--roboto);
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--dark);
+  text-transform: capitalize;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+.home3.choose .single-item p{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+.home3.choose .single-item a{
+  display: inline-block;
+  font-family: var(--heebo);
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+  background: var(--gradient2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.home3.choose .single-item a i{
+  padding-right: 10px;
+}
+.home3.choose .single-item:hover h5,
+.home3.choose .single-item:hover p{
+  color: var(--white);
+}
+.home3.choose .single-item:hover a{
+  background: var(--white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*================================================
+7.4: about
+==================================================*/
+.home3.about{
+  margin-top: -85px;
+  padding-top: 210px;
+  padding-bottom: 35px;
+}
+.home3.about .section-title{
+  padding-bottom: 15px;
+}
+.home3.about .section-title h3{
+  font-size: 40px;
+}
+.home3.about .content ul{
+  padding: 20px 0;
+}
+.home3.about .content ul li{
+  position: relative;
+}
+.home3.about .content ul li i{
+  display: inline-block;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  font-size: 20px;
+  color: var(--dark);
+}
+.home3.about .content ul li p{
+  padding-left: 20px;
+}
+.home3.about .content ul li:hover i{
+  background: var(--gradient2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*================================================
+7.5: feature
+==================================================*/
+.home3.feature .single-item::after {
+  background: var(--gradient2);
+}
+/*================================================
+7.6: project
+==================================================*/
+.home3.project .project-menu{
+  margin-bottom: 60px;
+}
+.home3.project .project-menu li a{
+  display: inline-block;
+  font-family: var(--heebo);
+  font-size: 17px;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: var(--grey);
+  clip-path: polygon(0 0, 100% 0%, 70% 100%, 0% 100%);
+  background: transparent;
+  padding: 13px 32px 13px 12px;
+}
+.home3.project .project-menu .active a{
+  background: var(--gradient2);
+  color: var(--white);
+}
+.home3.project .single-item{
+  position: relative;
+  margin-top: 30px;
+}
+.home3.project .single-item img{
+  width: 100%;
+}
+.home3.project .single-item .project-detail{
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  text-align: center;
+}
+.home3.project .single-item .project-detail .content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.home3.project .single-item .project-detail h4{
+  font-size: 28px;
+  font-family: var(--roboto);
+  font-weight: 500;
+  text-transform: capitalize;
+  color: var(--white);
+  white-space: nowrap;
+}
+.home3.project .single-item .project-detail h4:hover{
+  background: var(--gradient2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.home3.project .single-item .project-detail p{
+  font-weight: 700;
+  text-transform: capitalize;
+  color: var(--white);
+}
+/*================================================
+7.7: team
+==================================================*/
+.home3.team{
+  padding-bottom: 160px;
+}
+.home3.team .item{
+  position: relative;
+}
+.home3.team .item img{
+  width: 100%;
+}
+.home3.team .item .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  opacity: 0;
+}
+.home3.team .item:hover .overlay{
+  opacity: 1;
+}
+.home3.team .item ul{
+  position: absolute;
+  bottom: 60px;
+  left: 20px;
+  z-index: 4;
+}
+.home3.team .item ul li{
+  padding-right: 10px;
+  opacity: 0;
+}
+.home3.team .item ul li a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background: var(--white);
+  text-align: center;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.home3.team .item:hover ul li{
+  opacity: 1;
+}
+
+.home3.team .item ul li a i{
+  line-height: 40px;
+  font-size: 20px;
+  color: var(--orange);
+}
+.home3.team .item ul li a:hover{
+  background: var(--gradient2);
+}
+.home3.team .item ul li a:hover i{
+  color: var(--white);
+}
+
+.home3.team .item .detail-area{
+  height: 85px;
+  width: 100%;
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  overflow: hidden;
+  z-index: 5;
+}
+.home3.team .item .team-detail{
+  position: absolute;
+  top: 0;
+  left: -100%;
+  background: var(--gradient2);
+  box-shadow: 5px 0 57px rgba(0, 0, 0, 0.30);
+  clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
+  padding: 10px 80px 10px 30px;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+.home3.team .item .team-detail h5{
+  font-family: var(--heebo);
+  font-weight: 700;
+  text-transform: capitalize;
+  color: var(--white);
+  padding-bottom: 5px;
+}
+.home3.team .item .team-detail p{
+  text-transform: capitalize;
+  color: var(--white);
+}
+.home3.team .item:hover .team-detail{
+  left: 0;
+}
+
+.home3.team .item:hover ul li:nth-child(1) a {
+  animation: fade-in-bottom 0.1s ease-in-out;
+  -webkit-animation: fade-in-bottom 0.1s ease-in-out;
+}
+.home3.team .item:hover ul li:nth-child(2) a {
+  animation: fade-in-bottom 0.3s ease-in-out;
+  -webkit-animation: fade-in-bottom 0.3s ease-in-out;
+}
+.home3.team .item:hover ul li:nth-child(3) a {
+  animation: fade-in-bottom 0.5s ease-in-out;
+  -webkit-animation: fade-in-bottom 0.5s ease-in-out;
+}
+.home3.team .item:hover ul li:nth-child(4) a {
+  animation: fade-in-bottom 0.7s ease-in-out;
+  -webkit-animation: fade-in-bottom 0.7s ease-in-out;
+}
+@keyframes fade-in-bottom {
+  0% {
+    transform: translateY(25px);
+    -webkit-transform: translateY(25px);
+    -moz-transform: translateY(25px);
+    -ms-transform: translateY(25px);
+    -o-transform: translateY(25px);
+}
+  100% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+}
+/*================================================
+7.8: counter
+==================================================*/
+
+.home3.counter{
+  background-attachment: fixed !important;
+}
+.home3.counter .overlay{
+  background: rgba(0, 0, 0, 0.64);
+  padding-top: 115px;
+  padding-bottom: 110px;
+}
+.home3.counter .item .icon{
+  height: 180px;
+  width: 180px;
+  border: 8px solid var(--white);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin: auto;
+  text-align: center;
+}
+.home3.counter .item .icon i{
+  font-size: 60px;
+  color: var(--white);
+  line-height: 164px;
+}
+.home3.counter .item1 .icon{
+  background: #f084dc;
+}
+.home3.counter .item2 .icon{
+  background: var(--gradient2);
+}
+.home3.counter .item3 .icon{
+  background: #69ccff;
+}
+.home3.counter .item4 .icon{
+  background: #8b68ef;
+}
+.home3.counter .item h5{
+  font-family: var(--roboto);
+  font-weight: 500;
+  text-transform: capitalize;
+  color: var(--white);
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+.home3.counter .item h2{
+  font-family: var(--heebo);
+  font-weight: 500;
+  font-size: 76px;
+  color: var(--white);
+}
+
+/*================================================
+7.9: contact
+==================================================*/
+.home3.contact .section-title h3{
+  width: 60%;
+}
+.home3.contact .inputs{
+  width: 100%;
+  height: 34px;
+  border: 0;
+  border-bottom: 1px solid #c6c7c9;
+  background: transparent;
+  margin-bottom: 40px;
+  outline: none;
+}
+.home3.contact textarea.inputs{
+  height: 140px;
+  border: 1px solid #c6c7c9;
+  padding: 15px;
+}
+.home3.contact .inputs:focus{
+  border-color: var(--orange);
+}
+.home3.contact .inputs::placeholder{
+  font-size: 16px;
+  font-family: var(--heebo);
+  text-transform: capitalize;
+  font-weight: 400;
+  color: var(--grey);
+}
+.home3.contact .location #map {
+  width: 100%;
+  height: 550px;
+}
+
+/*================================================
+7.10: blog
+==================================================*/
+.home3.blog .single-blog .content ul li a i {
+  background: var(--gradient2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.home3.blog .single-blog .content ul li a:hover,
+.home3.blog .single-blog .content h5:hover ,
+.home3.blog .single-blog .content .read-more:hover {
+  color: var(--orange);
+}
+/*================================================
+7.11: footer
+==================================================*/
+.home3.footer .footer-mid .address li i {
+  color: var(--orange);
+}
+.home3.footer .footer-mid .address li:hover i {
+  background: var(--gradient2);
+  color: var(--white);
+}
+.home3.footer .footer-mid .navigation li a:hover, 
+.home3.footer .footer-mid .company li a:hover,
+.home3.footer .footer-bottom ul li a:hover {
+  color: var(--orange);
+}

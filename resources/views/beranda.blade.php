@@ -170,7 +170,7 @@
                                     <p>Kami siap memberikan layanan koneksi dengan IP transit atau multihoming bagi
                                         pemilik IP portable. Dengan koneksi IP multihoming</p>
                                     <a
-                                        href="https://registrar.radnet-digital.id/?_gl=1%2A16f5p4d%2A_ga%2AMTI5NjE3MTU5My4xNzIwMDk2NzE5%2A_ga_J8F34VXE6J%2AMTcyNzkyNTQ5OS45LjAuMTcyNzkyNTQ5OS4wLjAuMA.."><i
+                                        href="/feat-2privatepeering"><i
                                             class="fas fa-plus-circle"></i>read more</a>
                                 </div>
                             </div>
@@ -181,7 +181,7 @@
                                     <h5>2. Internet Security</h5>
                                     <p>Keamanan jaringan menjadi perhatian khusus agar mpelanggan menjadi semakin nyaman
                                         menggunakan layanan kami</p>
-                                    <a href="https://radnet-digital.id/internet-security/"><i
+                                    <a href="/feat-3privatesecurity"><i
                                             class="fas fa-plus-circle"></i>read more</a>
                                 </div>
                             </div>
@@ -192,7 +192,7 @@
                                     <h5>3. RadneXt Internet</h5>
                                     <p>Bisnis awal radneXt adalah penyedia layanan koneksi internet. Dengan dukungan
                                         ahli yang berpengalaman lebih dari 20 tahun</p>
-                                    <a href="https://radnet-digital.id/radnext-internet/"><i
+                                    <a href="/feat-1radnextinternet"><i
                                             class="fas fa-plus-circle"></i>read more</a>
                                 </div>
                             </div>
@@ -226,7 +226,7 @@
                                     <h5>6. EzyHome Internet</h5>
                                     <p>Layanan koneksi internet broadband terjangkau yang dapat dinikmati setiap
                                         kalangan tanpa adannya batasan pemakaian/p>
-                                        <a href="https://radnet-digital.id/ezyhome/"><i
+                                        <a href="/feat-6enzyhome"><i
                                                 class="fas fa-plus-circle"></i>read more</a>
                                 </div>
                             </div>

@@ -67,6 +67,10 @@ Route::get('/tentangkami', function () {
     return view('tentangkami');
 });
 
+Route::get('/detailberita', function () {
+    return view('detailberita');
+});
+
 
 
 

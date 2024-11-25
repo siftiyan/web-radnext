@@ -29,6 +29,11 @@
                 <!-- Additional paragraphs/content here -->
             </section>
 
+            <!-- Back Button -->
+            <div class="back-button">
+                <button onclick="history.back()">Kembali</button>
+            </div>
+
         </article>
     </div>
 </body>

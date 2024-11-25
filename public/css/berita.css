@@ -92,3 +92,43 @@ body {
         font-size: 16px; /* Slightly smaller content text on mobile */
     }
 }
+
+/* Back Button Styling */
+.back-button {
+    margin-top: 40px; /* Space above the button */
+    text-align: center; /* Center the button */
+}
+
+.back-button button {
+    background: linear-gradient(135deg, #3498db, #2980b9); /* Gradient background */
+    color: white;
+    font-size: 18px;
+    font-weight: bold; /* Make the text bold */
+    padding: 12px 25px; /* Add padding for better size */
+    border: none;
+    border-radius: 50px; /* Rounded corners */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition for all properties */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 1px; /* Space between letters */
+}
+
+.back-button button:hover {
+    background: linear-gradient(135deg, #2980b9, #3498db); /* Reverse gradient on hover */
+    transform: translateY(-4px); /* Slightly lift the button */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+.back-button button:focus {
+    outline: none; /* Remove the default outline when focused */
+    box-shadow: 0 0 0 3px rgba(41, 128, 185, 0.5); /* Focus outline with a blue tint */
+}
+
+@media (max-width: 768px) {
+    .back-button button {
+        font-size: 16px; /* Smaller font size for mobile */
+        padding: 10px 20px; /* Adjust padding for smaller screens */
+    }
+}
+

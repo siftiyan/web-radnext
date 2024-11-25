@@ -79,8 +79,8 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 });
 
-Route::get('/tambah', function () {
-    return view('tambah');
+Route::get('/berita1', function () {
+    return view('berita1');
 });
 
 

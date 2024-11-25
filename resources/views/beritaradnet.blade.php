@@ -142,7 +142,7 @@
                 <div class="col-lg-8 order-1 order-lg-0">
                     <div class="content">
                         <!-- blog-image -->
-                        <img src="images/blog/1.png" alt="Blog">
+                        <a href="/berita1"><img src="images/blog/1.png" alt="Blog"></a>
 
                         <!-- blog-title -->
                         <h4>Search Engine Optimization (SEO)</h4>
@@ -319,78 +319,82 @@
         <!-- end footer-top area -->
 
         <!-- start footer-mid area -->
+         <!-- start footer area -->
+    <footer class="home1 footer" data-img="images/footer-bg.jpg">
+        <!-- start footer-mid area -->
         <section class="footer-mid">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
                         <div class="content">
-                            <div class="title">
-                                <h5>Get in Touch</h5>
-                            </div>
-                            <ul class="address">
-                                <li class="d-flex align-items-center">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                    <p>24/A New California</p>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <i class="fas fa-phone-alt"></i>
-                                    <p>+1 800 123 4567</p>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <i class="far fa-envelope"></i>
-                                    <p>demo@example.com</p>
-                                </li>
-                            </ul>
+                            <img src="images/logo.png" alt="radnext logo" style="width: 150px;">
+                            <p>PT Radnet Digital Indonesia merupakan perusahaan yang bergerak pada bidang layanan solusi
+                                digital. Memberikan solusi digital untuk pengembangan bisnis atau kebutuhan pribadi
+                                anda.</p>
                         </div>
-                        
                     </div>
                     <div class="col-lg-2 col-md-6">
                         <div class="content">
                             <div class="title">
-                                <h5>navigation</h5>
+                                <h5>Surabaya</h5>
                             </div>
-                            <ul class="navigation">
-                                <li><a href="/beranda">home</a></li>
-                                <li><a href="service.html">service</a></li>
-                                <li><a href="team.html">our team</a></li>
-                                <li><a href="portfolio.html">project</a></li>
-                                <li><a href="blog.html">blog</a></li>
-                            </ul>
+                            <p>
+                                Management Office: <br>
+                                Intiland Tower Suites Lvl 3 <br>
+                                Jl. Panglima Sudirman Kav. 101-103, Surabaya 60271 <br><br>
+                                Operation Office: <br>
+                                Trillium Office & Residence Shophouse No. 3 <br>
+                                Jl. Pemuda 108 – 116, Surabaya 60271
+                            </p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="content">
                             <div class="title">
-                                <h5>company</h5>
+                                <h5>Bandung</h5>
                             </div>
-                            <ul class="company">
-                                <li><a href="service-detail.html">web design</a></li>
-                                <li><a href="service-detail.html">development</a></li>
-                                <li><a href="service-detail.html">SEO & PPC</a></li>
-                                <li><a href="service-detail.html">Ecommerce</a></li>
-                                <li><a href="service-detail.html">branding</a></li>
-                            </ul>
+
+                            <p>
+                                Jalan Kayu Agung I No. 65A <br>
+                                Kel. Turangga, Kec. Lengkong <br>
+                                Kota Bandung – 40264 <br>
+                                Telp. (022) 30505808
+                            </p>
+                            <br>
+                            <h5 style="color: white;">Jakarta</h5>
+                            <p>
+                                Graha Induk KUD lantai 8 <br>
+                                Jl. Warung Buncit Raya No.18 – 20 <br>
+                                Pejaten, Jakarta Selatan
+                            </p>
                         </div>
                     </div>
+                    <!-- Bagian kanan untuk ikon sosial media dan logo -->
                     <div class="col-lg-3 col-md-6">
                         <div class="content">
                             <div class="title">
-                                <h5>newsletter</h5>
+                                <h5>Ikuti kami di :</h5>
                             </div>
-                            <div class="newsletter">
-                                <p>Enter your email assress below and stay connected with us</p>
-                                <form action="#!">
-                                    <input type="email" placeholder="email address" class="inputs">
-                                    <button type="submit" class="button-style1">subscribe</button>
-                                </form>
+                            <p>
+                                <a href="https://radnet-digital.id/"><img src="images/web.png" alt="Website"
+                                        style="width: 30px;"></a>
+                                <a href="https://www.linkedin.com/company/pt-rdi/mycompany/"><img
+                                        src="images/linkedin.png" alt="LinkedIn" style="width: 30px;"></a>
+                                <a href="https://www.facebook.com/radnext.id"><img src="images/facebook.png"
+                                        alt="Facebook" style="width: 30px;"></a>
+                                <a href="https://www.instagram.com/radnetdigital"><img src="images/instagram.png"
+                                        alt="Instagram" style="width: 30px;"></a>
+                            </p>
+                            <div class="title">
+                                <h5>Didukung oleh :</h5>
                             </div>
+                            <img src="images/indocenter-logo.png" alt="Indocenter logo" style="width: 150px;">
                         </div>
-                        
                     </div>
                 </div>
             </div>
         </section>
-        <!-- end footer-mid area -->
+    </footer>
 
         <!-- start footer-bottom area -->
         <section class="footer-bottom">

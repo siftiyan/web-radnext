@@ -1,0 +1,94 @@
+/* General reset and font */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7; /* Lighter background color for better contrast */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container settings */
+.container {
+    width: 85%; /* Slightly narrower to create space on both sides */
+    max-width: 1200px; /* Maximum width for larger screens */
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+/* Article block */
+.article {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for better separation */
+    margin-bottom: 50px; /* Space after article */
+}
+
+/* Header style */
+.article-header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #2c3e50; /* Darker text color for emphasis */
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+/* Meta info style */
+.article-meta {
+    font-size: 14px;
+    color: #7f8c8d;
+    margin-bottom: 25px;
+}
+
+/* Article image styling */
+.article-image img {
+    width: 100%;
+    border-radius: 10px; /* Matching rounded corners */
+    margin-bottom: 30px; /* Adds space below the image */
+    object-fit: cover; /* Ensures image covers the container without distortion */
+}
+
+/* Article content styling */
+.article-content {
+    font-size: 18px; /* Larger font for readability */
+    color: #34495e; /* Darker text for contrast */
+    line-height: 1.8; /* Increased line height for easier reading */
+    margin-bottom: 30px;
+}
+
+.article-content p {
+    margin-bottom: 20px; /* Space between paragraphs */
+}
+
+/* Sidebar (if needed in future) */
+.sidebar {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.sidebar h3 {
+    font-size: 22px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.sidebar p {
+    font-size: 16px;
+    color: #7f8c8d;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        width: 95%; /* Make the container use more width on smaller screens */
+    }
+
+    .article-header h1 {
+        font-size: 28px; /* Smaller title on mobile */
+    }
+
+    .article-content {
+        font-size: 16px; /* Slightly smaller content text on mobile */
+    }
+}

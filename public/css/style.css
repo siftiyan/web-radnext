@@ -3853,3 +3853,112 @@ p {
 .home3.footer .footer-bottom ul li a:hover {
   color: var(--orange);
 }
+
+/*================================================
+7.12: login
+==================================================*/
+
+/* Perbesar bagian kanan (form login) */
+.login-box {
+  background: transparent; /* Hilangkan kotak putih */
+  box-shadow: none; /* Hilangkan bayangan */
+  padding: 20px; /* Sesuaikan padding untuk tata letak */
+  width: 100%;
+  max-width: 600px; /* Perlebar ukuran form login */
+  margin: auto;
+}
+
+.login-box h3 {
+  font-size: 28px; /* Perbesar teks judul */
+  font-weight: bold;
+  color: #fff; /* Ubah teks ke warna putih agar sesuai latar belakang */
+  margin-bottom: 20px;
+}
+
+.login-box .form-control {
+  border: 1px solid rgba(255, 255, 255, 0.5); /* Sesuaikan border form */
+  background: rgba(255, 255, 255, 0.1); /* Transparansi background input */
+  color: #fff; /* Teks input jadi putih */
+  padding: 10px 15px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.login-box .form-control::placeholder {
+  color: rgba(255, 255, 255, 0.7); /* Warna placeholder lebih lembut */
+}
+
+.login-box .form-control:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Tombol */
+.login-box .btn {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.login-box .btn:hover {
+  background: #0056b3;
+  color: #fff;
+}
+
+/* Teks link */
+.login-box .forgot-password a {
+  color: #fff; /* Ubah ke warna putih */
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.login-box .forgot-password a:hover {
+  text-decoration: underline;
+}
+
+.login-box p {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #fff; /* Ubah teks ke warna putih */
+}
+
+.login-box p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-box p a:hover {
+  text-decoration: underline;
+}
+
+/* Perbesar kolom kanan */
+.col-md-6 {
+  flex: 0 0 60%; /* Kolom kanan lebih lebar */
+  max-width: 60%;
+}
+
+.image-wrapper {
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+}
+
+.image-wrapper img {
+  max-width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Mengecilkan ukuran logo */
+.login-box .logo img {
+  max-width: 400px; /* Ukuran maksimum logo */
+  margin-bottom: 20px;
+}
+
+

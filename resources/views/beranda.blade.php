@@ -107,6 +107,8 @@
                                     </li>
                                     <li><a href="https://webmail.radnet.id/">Portal Webmail</a></li>
                                     <li><a href="/tentangkami">Tentang Kami</a></li>
+                                    <li><a href="/login">Masuk</a></li>
+                                    <li><a href="/dashboard">Masuk</a></li>
                                 </ul>
                             </div>
                         </nav>
